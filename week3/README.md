@@ -1,0 +1,13 @@
+#OBJECTIVE
+Applying HTML structure and CSS styling using all three methods (inline , internal, external) and multiple selector types.
+
+#CHALLANGES FACED 
+H ow to use multiple selector types in css
+
+#MEMBERS
+MUHENGA NASMA SELEMANI 3430/T.2024
+FRANK ELIA GIVEN 34578/T.2024
+MZERI JUMAA HAJI 34222/T.2024
+FUTE BEATRICE MALAKI 32529/T.2024
+MACHA RAHIM RAMADHAN 34660/T.2024
+NGERERI ELLIUTERUS JOSEPH 34450/T.2024
