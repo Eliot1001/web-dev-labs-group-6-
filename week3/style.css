@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(14, 185, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.sec{
+    margin: 2em;
+    padding: 5px;
+}
+#h1:hover{
+    color: red;
+}
+#h2:hover{
+    color:red;
+}
+#h3:hover{
+    color:red;
+}
+section ol li{
+    color: rgb(243, 230, 238);
+}
+section ul li{
+    color: azure;
+}
+h1, h3{
+    color: rgb(128, 0, 109);
+}
