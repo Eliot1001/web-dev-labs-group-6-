@@ -1,0 +1,45 @@
+div{
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+#new{
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+label{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border:1px solid black;
+}
+header{
+    position: fixed;
+    top:0px;
+    left: 50px;
+}
+nav{
+    position:sticky;
+    top:0px;
+    padding:15px;
+}
+.container{
+    width:100%;
+    overflow: hidden;
+}
+.main-content{
+    float:left;
+    width:46%;
+    padding:20px;
+}
+.side-bar{
+ float:right;
+ width:45%;
+ padding:20px;
+}
+.footer{
+    clear:both;
+    text-align: center;
+    padding:10px;
+}
