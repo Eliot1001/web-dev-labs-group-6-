@@ -1,0 +1,19 @@
+body{
+    margin: 50px;
+    padding: 12px;
+    text-align: center;
+    border:5px black;
+    background-color: aquamarine;
+}
+#calcBtn{
+    margin:12px;
+}
+#results{
+    border: black solid 2px;
+    padding:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: aliceblue;
+    color: black;
+
+}
