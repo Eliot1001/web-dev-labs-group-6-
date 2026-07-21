@@ -1,11 +1,8 @@
-venv/
 .venv/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.sqlite3
 .env
-db.sqlite3
-*.egg-info/
+.vscode/
 dist/
 build/
-.DS_Store

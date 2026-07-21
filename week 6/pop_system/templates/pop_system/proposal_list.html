@@ -1,0 +1,35 @@
+{% extends "pop_system/base.html" %}
+
+{% block title %}Proposals | Project Proposal System{% endblock %}
+
+{% block content %}
+<section class="panel">
+    <h1>All proposals</h1>
+    <p>A simple list view connected to the Proposal model.</p>
+
+    {% if proposals %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Submitted by</th>
+                    <th>Submitted on</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for proposal in proposals %}
+                    <tr>
+                        <td>{{ proposal.title }}</td>
+                        <td>{{ proposal.user.full_name }}</td>
+                        <td>{{ proposal.submission|date:"M d, Y H:i" }}</td>
+                        <td><span class="status">{{ proposal.get_status_display }}</span></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="empty">No proposal records are available yet.</p>
+    {% endif %}
+</section>
+{% endblock %}
